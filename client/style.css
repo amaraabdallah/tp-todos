@@ -1,0 +1,97 @@
+body {
+    background-color: #85cff7;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+  
+  }
+  #background-img{
+    background-image:    url('/checklist-2320130_1920.jpg');
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center; 
+    background-size:contain;
+    background-position:center;
+    /* background-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center; */
+  }
+  
+  #list_section {
+    text-align: center;
+  }
+  
+  h1 {
+    color: white;
+    margin: 0px auto;
+    padding: 20px;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  .item-body {
+    background-color: #fff;
+    font-size: 20px;
+    list-style-type: none;
+    width: 20%;
+    margin: 0px auto;
+    border-radius: 3px;
+    border: 1px solid #000;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .done .item-body{
+    color: white;
+    background: linear-gradient(to right bottom, 
+    #afa89f, #162a47);
+    background-size: auto; 
+  }
+  .btn-done{
+    background-color:rgb(178, 214, 178);
+    margin-bottom: 1em;
+  }
+  p {
+    background-color: #fff;
+    color: #666;
+    padding: 10px;
+    display: inline-block;
+    margin: 20px auto 20px auto;
+    width: 80%;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .item {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  input[type='text'] {
+    font-size: 12px;
+    padding: 6px;
+    border: 1px solid #000;
+    border-radius: 3px;
+  }
+  
+  input[type='submit'] {
+    background-color: #fff;
+    color: #000;
+    border-radius: 8px;
+    border: none;
+    padding: 5px;
+  }
+  #add{
+    background-color: rgb(145, 125, 125); 
+  }
+  #newItemButton {
+    display: none;
+  }
+  
+  #itemField {
+    margin-top: 60px;
+    width: 10%;
+  }
